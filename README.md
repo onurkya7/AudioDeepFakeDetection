@@ -14,7 +14,9 @@ pip install -r requirements.txt
 
 ## Setup Datasets
 
-You may download the datasets used in the project from the following URLs:
+You may download the datasets used in the project from the following URL:
+
+https://drive.google.com/file/d/1O_PckJtEbQWlHEMSA5gDdxRooa1S1N2p/view
 
 -   (Real) Human Voice Dataset:
     -   This dataset consists of 10.000 short audio clips of a single speaker reading passages from 7 non-fiction books.
