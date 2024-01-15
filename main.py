@@ -1,7 +1,10 @@
 import customtkinter
-from PIL import Image
 from tkinter import filedialog
 import importlib
+from customtkinter import CTkButton, CTkImage
+from tkinter import PhotoImage
+from PIL import Image, ImageDraw, ImageTk
+from tkinter import Tk
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("dark-blue") 
@@ -71,12 +74,6 @@ folder_button.pack(side=customtkinter.LEFT, padx=5)
 checkbox_1 = customtkinter.CTkCheckBox(master=app,text="Model accuracy rate")
 checkbox_1.pack(pady=30, padx=10)
 
-
-from customtkinter import CTkButton, CTkImage
-from tkinter import PhotoImage
-from PIL import Image, ImageDraw, ImageTk
-from tkinter import Tk
-
 def create_gradient_image(width, height, color1, color2):
     image = Image.new("RGB", (width, height), color1)
     draw = ImageDraw.Draw(image)
@@ -93,3 +90,5 @@ button_1.configure(image=gradient_image, compound="center", text="Run")
 button_1.pack(pady=0, padx=10)
 
 app.mainloop()
+
+#onurkaya
