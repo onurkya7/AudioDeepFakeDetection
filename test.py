@@ -7,7 +7,6 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 def runtest(example_file_path):
-    # Yüklenen modeli kullanma
     loaded_model = joblib.load("models/random_forest_model.joblib")
 
     def extract_features(file_path):
